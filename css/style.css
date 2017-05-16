@@ -1,0 +1,250 @@
+.main_header {
+    text-align: center;
+    padding: 42px 0;
+    background: #f4645f;
+}
+
+.main_header h1 {
+    color: #fff;
+}
+
+.btn {
+    padding: 7px 7px;
+    border-radius: 2px;
+}
+
+.btn-doc {
+    border: 1px solid red;
+    background: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.btn-default:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+@media all and (max-width: 771px) {
+    .nav .navbar {
+        width: 100%;
+    }
+
+    .nav .navbar-default {
+        background: none;
+        border: none;
+    }
+
+    .nav .btn {
+        line-height: 50px;
+        padding: 0 14px;
+        border: none;
+    }
+
+    .nav .btn-doc {
+        border: none;
+        background: none;
+        color: #000;
+        font-size: 12px;
+    }
+
+    .nav .btn-default:hover {
+        color: #f00;
+    }
+}
+
+.nav .navbar {
+    width: 100%;
+}
+
+.nav .navbar-default {
+    background: none;
+    border: none;
+}
+
+.nav .btn {
+    line-height: 24.5px;
+    padding: 0 14px;
+    border: none;
+}
+
+.nav .btn-doc {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.nav .btn-default:hover {
+    color: #f00;
+}
+
+.main {
+    background: #CCCCCC;
+}
+
+.main .main-navigation {
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #ebebeb;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.main .post {
+    margin-top: 20px;
+    padding: 35px;
+    background: #fff;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.main .featured-media a img {
+    max-width: 100%;
+}
+
+.main .post-title {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.main .post-title a {
+    color: #303030;
+}
+
+.main .post-meta {
+    text-align: center;
+    line-height: 40px;
+}
+
+.main .post-footer {
+    margin-top: 30px;
+    border-top: 1px solid #ebebeb;
+    padding: 0px 0 0;
+}
+
+.main .widget {
+    margin-top: 20px;
+    background: #fff;
+    padding: 21px 30px;
+    float: left;
+    margin-bottom: 35px;
+}
+
+.main .widget .title {
+    margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.main .widget .title:after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #f4645f;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.main .widget h4 {
+    font-size: 1.5em;
+}
+
+.main .btn {
+    padding: 15px 60px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.main .btn-doc {
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.main .btn-default:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+.main .pagination {
+    text-align: center;
+}
+
+.main .pagination .page-number {
+    background: #f4645f;
+    color: #fff;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 14px;
+    border-radius: 2px;
+}
+
+.main .pagination .page-number a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    background: #f4645f;
+    border-radius: 2px;
+}
+
+footer {
+    max-width: 100%;
+    background: #202020;
+    padding: 35px 0 0;
+    color: #959595;
+}
+
+footer .title {
+    margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+    color: #fff;
+    border-bottom: 1px solid #303030;
+}
+
+footer h4 {
+    font-size: 1.5em;
+}
+
+footer .title:after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #f4645f;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+footer .recent-single-post {
+    border-bottom: 1px dashed #303030;
+}
+
+footer .post-title {
+    font-size: 12px;
+    color: #959595;
+}
+
+footer .post-title a {
+    font-size: 12px;
+    color: #959595;
+}
+
+footer .date {
+    font-size: 12px;
+}
